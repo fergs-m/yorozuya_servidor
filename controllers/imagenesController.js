@@ -1,23 +1,23 @@
 let imagenes = [
   {
     nombre: "Gintoki Sakata",
-    img: "http://localhost:3000/gintoki.webp",
+    img: "https://yorozuyaservidor.vercel.app/gintoki.webp",
   },
   {
     nombre: "Shinpachi Shimura",
-    img: "http://localhost:3000/shinpachi-shimura.webp",
+    img: "https://yorozuyaservidor.vercel.app/shinpachi-shimura.webp",
   },
   {
     nombre: "Kagura",
-    img: "http://localhost:3000/kagura.webp",
+    img: "https://yorozuyaservidor.vercel.app/kagura.webp",
   },
   {
     nombre: "Sadaharu",
-    img: "http://localhost:3000/sadaharu.webp",
+    img: "https://yorozuyaservidor.vercel.app/sadaharu.webp",
   },
   {
     nombre: "Katsura Kotauro",
-    img: "http://localhost:3000/zura.webp",
+    img: "https://yorozuyaservidor.vercel.app/zura.webp",
   },
 ];
 
