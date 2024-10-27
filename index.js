@@ -27,10 +27,6 @@ app.use("/usuarios", usuarios);
 app.use("/personajes", personajes);
 app.use("/imagenes", imagenes);
 
-//Middelwere error 404 (not found)
-app.use((req, res) => {
-  res.status(404).send("<h1> Ruta no encontrada (page not found)</h1>");
-});
 
 //Middelwere error 500
 app.use((req, res) => {
