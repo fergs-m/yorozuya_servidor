@@ -27,12 +27,6 @@ app.use("/usuarios", usuarios);
 app.use("/personajes", personajes);
 app.use("/imagenes", imagenes);
 
-
-//Middelwere error 500
-app.use((req, res) => {
-  res.status(500).send("<h1>Error 500 de servidor</h1>");
-});
-
 //Puerto que la aplicación usará para mostrar los datos
 app.listen(process.env.PORT, () => {
   loggerServidor.info("Servidor encendido");
