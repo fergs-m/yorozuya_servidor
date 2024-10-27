@@ -17,8 +17,8 @@ let imagenes = [
   },
   {
     nombre: "Katsura Kotauro",
-    img: "https://yorozuyaservidor.vercel.app/zura.webp",
-  },
+    img: "https://yorozuyaservidor.vercel.app/zura.webp"
+  }
 ];
 
 const imagenesController = {
