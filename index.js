@@ -27,6 +27,18 @@ app.use("/usuarios", usuarios);
 app.use("/personajes", personajes);
 app.use("/imagenes", imagenes);
 
+//Middlewere error 500
+app.use((err, req, res, next) => {
+  res
+    .status(500)
+    .json("<h1>Error 500 de servidor, disculpe las molestiasa</h1>");
+});
+
+//Middleware error 400
+app.use((req, res) => {
+  res.status(404).send("<h1> Ruta no encontrada (404) <h1/>");
+});
+
 //Puerto que la aplicación usará para mostrar los datos
 app.listen(process.env.PORT, () => {
   loggerServidor.info("Servidor encendido");
